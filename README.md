@@ -2,4 +2,4 @@
 
 This project describes some aspects of providing High Availability for IBM Cloud Private.
 
-HA for the Management Node
+[HA for the Management Node](Mgmt.md)
