@@ -1,1 +1,1 @@
-kubectl -s localhost:8888 run -it -n kube-system --image=ubuntu shell
+kubectl -s localhost:8888 run my-shell --rm -i --tty --image ubuntu -- bash
