@@ -2,5 +2,13 @@
 
 * Check DNS on Management
 * Check cloudantdb service available
-* Restart unhealth Pods
+* Restart kubelet on Master
+
+# Order of Node restart
+
+* Management nodes 
+* Master nodes
+* Proxy nodes
+* Worker nodes
+* VA nodes
 * 
